@@ -1,16 +1,34 @@
-#prev {
+.nav {
   height: 20px;
+  display: inline-block;
+}
+
+#prev {
   border: solid 1px black;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+
 }
 
 #page {
-  height: 20px;
   border: solid 1px black;
-
 }
 
 #next {
-  height: 20px;
   border: solid 1px black;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
 
+}
+
+.grey {
+  color: grey;
+}
+
+.blue {
+  color: blue;
+}
+
+ul {
+  list-style: none;
 }
