@@ -94,3 +94,7 @@ ul {
 #greg{
   color: black;
 }
+
+ul span.fa:hover{
+  color: yellow;
+}
